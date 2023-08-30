@@ -197,10 +197,31 @@ img {
 .inner-instagram-area .images {
   gap: 24px;
 }
-
+/* customer-feedback */
+.customer-feedback {
+  padding: 128px 50px;
+  text-align: center;
+  background: #e554731a;
+}
+.inner-customer-feedback .section-title {
+  margin-bottom: 24px;
+}
+.inner-customer-feedback p {
+  font-size: 20px;
+}
+.inner-customer-feedback p .quote {
+  font-weight: bold;
+}
+.inner-customer-feedback .user {
+  margin-top: 20px;
+}
+.inner-customer-feedback .user .user-name {
+  font-weight: 700;
+}
 /* latest deals  */
 .latest-deals {
   text-align: center;
+  padding-top: 128px;
   padding-bottom: 128px;
   background-color: #ffffff;
 }
