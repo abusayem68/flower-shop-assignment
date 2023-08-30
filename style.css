@@ -7,16 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -37,6 +28,14 @@ img {
 }
 .w-40 {
   width: 40%;
+}
+.section-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 /* Header area  */
 .hero-area {
@@ -73,4 +72,70 @@ img {
   background-color: #e55473;
   border: none;
   cursor: pointer;
+}
+
+/* Featured flowers  */
+.featured-flowers {
+  padding-top: 128px;
+  background-color: #ffffff;
+}
+.featured-flowers .section-heading .section-title {
+  margin-bottom: 24px;
+}
+.featured-flowers .section-heading p {
+  width: 594px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  color: #27272799;
+  font-size: 18px;
+  text-align: center;
+}
+.featured-flowers .flowers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  text-align: center;
+}
+.featured-flowers .flowers .flower .img-box {
+  border-radius: 300px 300px 0 0;
+  padding: 110px 76px 0 76px;
+  background-color: #a7216226;
+  margin-bottom: 32px;
+  height: 410px;
+  overflow: hidden;
+}
+.featured-flowers a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #272727;
+}
+
+/* customer service area */
+.customer-service {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.inner-customer-service {
+  background-color: #2727270d;
+  padding: 66px 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+.inner-customer-service .customer-service-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.inner-customer-service .customer-service-item img {
+  width: 80px;
+  height: 80px;
+}
+.inner-customer-service .customer-service-item p {
+  color: #272727cc;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
