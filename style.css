@@ -139,3 +139,136 @@ img {
   font-weight: 600;
   text-align: center;
 }
+/* hot deals  */
+.hot-deals {
+  background-color: #e554730d;
+}
+.inner-hot-deals {
+  gap: 100px;
+  align-items: center;
+  padding: 100px;
+}
+.inner-hot-deals .content {
+  max-width: 60%;
+  text-align: center;
+}
+.inner-hot-deals .content h3 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  margin-bottom: 24px;
+}
+.inner-hot-deals .content h3 .highlight {
+  color: #e55473;
+}
+.inner-hot-deals .content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-bottom: 32px;
+}
+.inner-hot-deals .content button {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px 20px 43px;
+  border: none;
+  background-color: #e55473;
+  border-radius: 8px;
+}
+
+/* instagram area  */
+.instagram-area {
+  padding: 128px 0;
+}
+.inner-instagram-area .section-title {
+  margin-bottom: 24px;
+}
+.inner-instagram-area p {
+  width: 594px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  color: #27272799;
+  font-size: 18px;
+  text-align: center;
+}
+.inner-instagram-area .images {
+  gap: 24px;
+}
+
+/* latest deals  */
+.latest-deals {
+  text-align: center;
+  padding-bottom: 128px;
+  background-color: #ffffff;
+}
+.inner-latest-deals {
+  background-image: url(./images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 122px 287px;
+}
+.inner-latest-deals .section-title {
+  margin-bottom: 16px;
+}
+.inner-latest-deals p {
+  width: 594px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  color: #27272799;
+  font-size: 18px;
+}
+.inner-latest-deals form {
+  width: 100%;
+}
+.inner-latest-deals form input {
+  width: 60%;
+  max-width: 700px;
+  margin-right: 20px;
+  font-size: 16px;
+  padding: 23px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.inner-latest-deals form button {
+  width: 30%;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px 20px 43px;
+  border: none;
+  background-color: #e55473;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* footer area  */
+footer {
+  text-align: center;
+  background-color: #111010;
+  color: #ffffff;
+  padding: 128px 0;
+}
+footer h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+footer h2 .highlight {
+  color: #e55473;
+}
+footer p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  max-width: 625px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+footer .opacity {
+  opacity: 0.4;
+}
